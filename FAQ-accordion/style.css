@@ -3,7 +3,8 @@
 
 body{
     /* background-color: hsl(275, 100%, 97%); */
-    background:url('./assets/images/background-pattern-desktop.svg') no-repeat, hsl(275, 100%, 97%);;
+    background:url('./assets/images/background-pattern-desktop.svg') no-repeat, hsl(275, 100%, 97%);
+    background-size:contain;
     font-family: 'Work Sans';
 }
 
