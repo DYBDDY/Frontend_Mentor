@@ -1,2 +1,3 @@
 # Frontend_Mentor
-## practice makes perfect~
+## Newbie
+### [QR-code-component](https://qrcode-view.netlify.app/) 
