@@ -64,5 +64,6 @@ input{
 }
 
 input:hover{
-    background-color: hsl(4, 100%, 67%);
+    background: linear-gradient(to right, hsl(346, 100%, 66%), hsl(15, 100%, 61%));
+    box-shadow: 0 10px 10px 5px hsl(346, 50%, 66%, 0.5);
 }
