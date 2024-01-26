@@ -1,0 +1,105 @@
+body{
+        background-color:hsl(234, 29%, 20%);
+        font-family: 'Roboto';    
+}
+
+
+@font-face{
+src:url("/assets/fonts/Roboto-Regular.ttf");
+font-family: 'Roboto';
+}
+
+.wrapper{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: hsl(0, 0%, 100%);
+    max-width: 800px;
+    max-height:520px;
+    margin:auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    border-radius: 30px;
+ 
+}
+
+.left-column{
+    margin:auto;
+    max-width: 350px;
+    margin-right: 10px;
+    margin-left: 50px;
+    
+}
+
+.title{
+    font-size: 25px;
+    color: hsl(235, 18%, 26%);
+}
+.quote{
+    margin-bottom: 30px;
+}
+
+.list h2{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: hsl(234, 29%, 20%);
+}
+
+img.icon{
+    width: 5%;
+    vertical-align: baseline;
+    margin-right: 10px;
+}
+
+.email{
+    margin-bottom: 60px;
+    font-weight: bold;
+    color: hsl(235, 18%, 26%);
+}
+
+#email{
+    width:300px;
+    height:45px;
+    margin-bottom:20px;
+    border-radius: 5px;
+    border-width: thin;
+    border-color:hsl(231, 7%, 60%);
+}
+
+#submit{
+    width:305px;
+    height:45px;
+    border-radius: 5px;
+    border:none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(234, 29%, 20%);
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: hsl(4, 100%, 67%);
+}
+
+.email h3{
+    margin-top: 30px;
+    font-size: 11px;
+    font-weight: bolder;
+}
+
+.image{
+    width:450px;
+    
+}
+
+.image img{
+    margin-left:10px;
+    width: 90%;
+}
+
+
+
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/index.js"></script>
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body>
+
+  <!-- Sign-up form start -->
+<div class="wrapper">
+  <div class="left-column">
+    <div class="title"><h1>Stay updated!</h1></div>
+
+    <div class="list">
+      <h2 class="quote">Join 60,000+ product managers receiving monthly updates on:</h2>
+      <p><h2><img class="icon" src="/assets/images/icon-list.svg">Product discovery and building what matters</p></h2>
+      <p><h2><img class="icon" src="/assets/images/icon-list.svg">Measuring to ensure updates are a success</p></h2>
+      <p><h2><img class="icon" src="/assets/images/icon-list.svg">And much more!</p></h2>
+    </div>
+  
+
+    <div class="email">
+      <form name="mailform" action="/success.html" onsubmit="myfunction(event)" >
+        <label for="email"><h3>Email address</h3></label>
+        <input type="email" id="email" name="email" placeholder="      email@company.com">
+        <input type="submit" id="submit" value="Subscribe to monthly newsletter">
+      </form>
+    </div>
+  </div>
+  
+
+  <div class="image">
+    <img src="/assets/images/illustration-sign-up-desktop.svg">
+  </div>
+ </div> 
+</div>
+</body>
+</html>
