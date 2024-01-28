@@ -1,0 +1,183 @@
+@font-face{
+    src: url(/assets/fonts/Poppins-BoldItalic.ttf);
+    font-family: "Poppins-Italic";
+}
+
+@font-face {
+    font-family:"Poppins-regular";
+    src: url(/assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family:"Poppins-regular-bold";
+    src: url(/assets/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family:"Poppins-Italic";
+    src: url(/assets/fonts/Poppins-Italic.ttf);
+}
+
+
+
+body{
+    background-color: hsl(0, 0%, 94%);
+}
+
+.wrapper{
+    margin:auto;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background:hsl(0, 0%, 100%);
+    max-width: 540px;
+    max-height: 450px;
+    border-radius: 25px 25px 150px;
+}
+
+
+.upperrow{
+    margin-left:50px;
+}
+
+/*inputfield*/
+.inputfield{
+    display: flex;
+    font-size:10px;
+    gap:20px;
+    font-family:"Poppins-regular-bold";
+}
+.inputfield h3{
+    color:hsl(0, 1%, 44%);
+    margin-top: 25px;
+    margin-bottom:5px;
+}
+input{
+    width:100px;
+    height:40px;
+    font-family:"Poppins-regular-bold";
+    font-size: 19px;
+    border-color: hsl(0, 0%, 86%);
+    border-radius:5px;
+    border-style:solid ;
+    outline: none;
+    transition: 0.5s;
+}
+
+input:hover{
+    border-color:hsl(259, 100%, 65%);
+}
+
+input:focus {
+    border-color:hsl(259, 100%, 65%);;
+  }
+
+.validation h3{
+    margin-top:2px;
+    margin-bottom: 2px;
+}
+
+#validyear{
+    font-size: 8px;
+    font-family:"Poppins-Italic";
+    color:hsl(0, 100%, 67%)
+}
+
+#validmonth{
+    font-size: 8px;
+    font-family:"Poppins-Italic";
+    color:hsl(0, 100%, 67%)
+}
+
+#validday{
+    font-size: 8px;
+    font-family:"Poppins-Italic";
+    color:hsl(0, 100%, 67%)
+}
+
+
+/*iconfield*/
+.iconfield{
+    display: flex; 
+    align-items: center;
+}
+
+hr{
+    width: 390px;
+    margin:0px;
+    border-color: hsl(0, 0%, 86%);
+    border-style: solid;
+}
+
+button{
+    background-color: hsl(259, 100%, 65%);
+    width:60px;
+    height:60px;
+    border-radius: 50%; 
+    border:none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color:purple;
+}
+
+img{
+    width:70%;
+}
+
+
+/* outputfield */
+.outputfield{
+    margin-left:50px;
+    margin-top:-5px ;
+    font-size: 32px;
+    font-family:"Poppins-Italic";
+    display: flex;
+    flex-direction: column; 
+    max-width: 400px;
+    max-height: 100px;
+}
+
+.outputfield h1{
+    margin: 0;
+}
+
+.yearoutput{
+    display: flex;
+    height:75px;
+}
+
+.yearoutput .dashyear{
+    color: hsl(259, 100%, 65%);
+    margin: 0;
+}
+
+.monoutput{
+    display: flex;
+    height:75px;
+}
+
+.monoutput .dashmonth{
+    color: hsl(259, 100%, 65%);
+}
+
+.dayoutput{
+    display: flex;
+    height:75px;
+}
+
+.dayoutput .dashday{
+    color: hsl(259, 100%, 65%);
+}
+
+/*for validation*/
+
+
+.validationstyle-border{
+    border-color:hsl(0, 100%, 67%);
+    
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+<body>
+ 
+  <div class="wrapper">
+    <div class="upperrow">
+
+      <div class="inputfield">
+        <div class="dayinput">
+          <h3 id="titleday">DAY</h3>
+          <input type="number" id="inputday" placeholder="   DD">
+            <div class="validation"><h3 id="validday"></h3></div>
+        </div>
+        <div class="moninput">
+          <h3 id="titlemonth">MONTH</h3>
+          <input type="number" id="inputmon"placeholder="   MM">
+          <div class="validation"><h3 id="validmonth"></h3></div>
+        </div>
+        <div class="yearinput">
+          <h3 id="titleyear">YEAR</h3>
+          <input type="number" id="inputyear" placeholder="   YYYY">
+          <div class="validation"><h3 id="validyear"></h3></div>
+        </div>
+      </div>
+
+      <div class="iconfield">
+        <hr>
+        <button id="button" ><img src="/assets/images/icon-arrow.svg"></button>
+      </div>
+    </div>   
+
+    <div class="outputfield">
+      <div class="yearoutput">
+        <h1 class="dashyear" id="dashyear">--</h1>
+        <h1 >years</h1>
+      </div>
+      <div class="monoutput">
+        <h1 class="dashmonth" id="dashmonth">--</h1>
+        <h1>months</h1>
+      </div>
+      <div class="dayoutput">
+        <h1 class="dashday" id="dashday">--</h1>
+        <h1>days</h1>
+      </div>
+    </div>
+
+  </div>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="/index.js"></script>
+</body>
+</html>
