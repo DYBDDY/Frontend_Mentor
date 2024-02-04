@@ -1,0 +1,343 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: 'Inter-ExtraBold';
+    src: url(/assets/fonts/static/Inter-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url(/assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url(/assets/fonts/static/Inter-Bold.ttf);
+}
+
+body{
+    font-family: 'Inter';
+    background-color: hsl(36, 100%, 99%);
+    margin:0;
+    padding:0;
+    width:80%;
+    margin:auto;
+}
+    
+    /* navbar */
+header{
+    /* background-color: aqua; */
+    margin-top: 30px;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+header nav a img{
+    width: 90%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    width:35%; 
+    margin-left: auto;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color:hsl(236, 13%, 42%); 
+    cursor: pointer;
+   
+}
+
+header nav ul li a:hover {
+    color:hsl(5, 85%, 63%);    
+}
+
+.overlaybtn{
+    display: none;
+}
+
+.overlay{
+    display: none;
+}
+
+
+/* main */
+.upperrow{
+    display: flex;
+    margin-bottom: 80px;   
+}
+
+/* titlenews */
+.titlenews {
+    /* background-color: bisque; */
+    margin-right: 40px;
+    width:90%;
+    height:90%
+}
+.titlenews img{
+    width: 100%;
+}
+.desktop{
+    width: 100%;
+}
+.mobileimg{
+    display: none;
+}
+.web3{
+    display: flex;
+    max-height: 300px;
+}
+
+.web3title{
+    /* background-color: aquamarine; */
+    font-family: 'Inter-ExtraBold';
+    color: hsl(240, 100%, 5%);
+    max-height: 200px;
+    font-size: 25px;  
+}
+
+.web3title h1{
+    /* font-family: 'Inter-ExtraBold';
+    font-size: 250%;   */
+}
+
+.web3readmore{
+    /* background-color: blueviolet; */
+    margin-left: 90px;
+    max-height: 200px;
+
+}
+
+.web3readmore p{
+    /* background-color: blue; */
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.web3readmore button{
+    width: 200px;
+    height:50px;
+    margin-top:40px;
+    color:hsl(36, 100%, 99%);
+    /* font-size: 13px; */
+    font-size: 110%;
+    font-family: 'Inter-Bold';
+    background-color: hsl(5, 85%, 63%);
+    border:none;
+    cursor: pointer;
+}
+
+.web3readmore button:hover{
+    background-color: hsl(240, 100%, 5%);
+}
+
+
+/* newnews */
+.newnews{
+    /* background-color: cadetblue; */
+    background-color: hsl(240, 100%, 5%);
+    max-width: 320px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.newnews h2{
+    font-size: 45px;
+    color:hsl(35, 77%, 62%);
+}
+
+.newnews h3{
+    font-size: 20px;
+    color:hsl(36, 100%, 99%);
+    cursor: pointer;
+}
+
+.newnews h3:hover{
+    color:hsl(35, 77%, 62%);
+}
+
+.newnews p{
+    color:hsl(36, 100%, 99%);
+    font-size:16px;
+    font-weight: lighter;
+}
+
+/* lowerrow */
+.lowerrow{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.lowerrow img{
+    width: 100px;
+    height:150px
+}
+
+.reco1{
+    display: flex;
+}
+
+.reco2{
+    display: flex;
+}
+
+.reco3{
+    display: flex;
+}
+
+.recotitle{
+    /* background-color: aqua; */
+    padding-left: 30px;
+}
+
+.recotitle h2{
+    color:hsl(233, 8%, 79%);
+    font-size: 30px;
+    line-height: 10px;
+}
+
+.recotitle h3{
+    color:hsl(236, 13%, 42%);
+    cursor: pointer;
+}
+.recotitle h3:hover{
+    color:hsl(5, 85%, 63%);
+}
+
+.recotitle p{
+    line-height: 25px;
+    color:hsl(236, 13%, 42%);
+ }
+
+
+
+.web3title h1{
+    /* font-family: 'Inter-ExtraBold';
+    font-size: 250%;   */
+}
+
+.web3readmore{
+    /* background-color: blueviolet; */
+    margin-left: 90px;
+    max-height: 200px;
+
+}
+
+.web3readmore p{
+    /* background-color: blue; */
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.web3readmore button{
+    width: 200px;
+    height:50px;
+    margin-top:40px;
+    color:hsl(36, 100%, 99%);
+    /* font-size: 13px; */
+    font-size: 110%;
+    font-family: 'Inter-Bold';
+    background-color: hsl(5, 85%, 63%);
+    border:none;
+    cursor: pointer;
+}
+
+.web3readmore button:hover{
+    background-color: hsl(240, 100%, 5%);
+}
+
+
+/* newnews */
+.newnews{
+    /* background-color: cadetblue; */
+    background-color: hsl(240, 100%, 5%);
+    max-width: 320px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.newnews h2{
+    font-size: 45px;
+    color:hsl(35, 77%, 62%);
+}
+
+.newnews h3{
+    font-size: 20px;
+    color:hsl(36, 100%, 99%);
+    cursor: pointer;
+}
+
+.newnews h3:hover{
+    color:hsl(35, 77%, 62%);
+}
+
+.newnews p{
+    color:hsl(36, 100%, 99%);
+    font-size:16px;
+    font-weight: lighter;
+}
+
+/* lowerrow */
+.lowerrow{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.lowerrow img{
+    width: 100px;
+    height:150px
+}
+
+.reco1{
+    display: flex;
+}
+
+.reco2{
+    display: flex;
+}
+
+.reco3{
+    display: flex;
+}
+
+.recotitle{
+    /* background-color: aqua; */
+    padding-left: 30px;
+}
+
+.recotitle h2{
+    color:hsl(233, 8%, 79%);
+    font-size: 30px;
+    line-height: 10px;
+}
+
+.recotitle h3{
+    color:hsl(236, 13%, 42%);
+    cursor: pointer;
+}
+.recotitle h3:hover{
+    color:hsl(5, 85%, 63%);
+}
+
+.recotitle p{
+    line-height: 25px;
+    color:hsl(236, 13%, 42%);
+ }
+
+
+
