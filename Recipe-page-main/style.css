@@ -1,0 +1,220 @@
+body{
+    margin:auto;
+    padding: 0;
+    width: 70%;
+    background-color: hsl(30, 54%, 90%);
+}
+
+@font-face {
+    font-family:'Outfit-Bold' ;
+    src: url(/assets/fonts/outfit/static/Outfit-Bold.ttf)
+}
+
+@font-face {
+    font-family:'Young Serif' ;
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf)
+}
+
+@font-face {
+    font-family:'Outfit' ;
+    src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf)
+}
+
+.wrapper{
+    background-color:hsl(0, 0%, 100%) ;
+    /* margin: auto; */
+    margin-top: 10%;
+    margin-bottom:10%;
+    margin-left:auto;
+    margin-right:auto;
+    width:60%;
+    border-radius: 10px;
+}
+
+.titleimg{
+    width:90%;
+    padding-top: 5%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.titleimg img{
+    max-width:100%;
+    border-radius: 10px;;
+}
+
+.title{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    /* font-family: ; */
+}
+
+.title h1{
+    font-family:'Young Serif' ;
+    font-size: 2rem;
+}
+.title p{
+    /* font-family:'Young Serif' ; */
+    font-family:'Outfit' ;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color:hsl(30, 10%, 34%);
+}
+
+.prep{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1% 1% 1% 1%;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+}
+
+.prep h3{
+    margin-left: 4%;
+    font-family:'Outfit' ;
+    color: hsl(332, 51%, 32%);
+}
+
+.prep ul{
+    color: hsl(332, 51%, 32%);
+    font-size: 0.8rem;
+}
+.prep ul li p{
+    font-family:'Outfit' ;
+    font-size: 0.8rem;
+    margin-left: 5%;
+    color:hsl(30, 10%, 34%);
+}
+
+.ingredient{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.ingredient h2{
+    font-family:'Young Serif' ;
+    color:hsl(14, 45%, 36%)
+}
+.ingredient ul{    
+    margin: 0;
+    padding: 0;
+}
+.ingredient ul li{    
+    margin-left:3%;
+    color:hsl(14, 45%, 36%);
+    font-size: 0.8rem;
+}
+.ingredient ul li p{
+    font-family:'Outfit' ;
+    font-size: 0.8rem;
+    color:hsl(30, 10%, 34%);
+    margin-left: 3%;
+}
+
+hr{
+    width:90%;
+    border:none;
+    height:1px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color:hsl(30, 18%, 87%);
+}
+
+.instruction{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.instruction h2{
+    font-family:'Young Serif' ;
+    color:hsl(14, 45%, 36%)
+}
+
+.instruction ol{    
+    /* list-style-type: none; */
+    font-family:'Outfit' ;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+}
+.instruction ol li{    
+    margin-left:3%;
+    color:hsl(14, 45%, 36%);
+
+}
+.instruction ol li p{
+    font-family:'Outfit' ;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    color:hsl(30, 10%, 34%);
+    margin-left: 3%;
+}
+
+.nutrition{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom: 3%;
+    
+}
+
+.nutrition h2{
+    font-family:'Young Serif' ;
+    color:hsl(14, 45%, 36%)
+}
+
+.nutrition p{
+    font-family:'Outfit' ;
+    font-size: 0.8rem;
+    color:hsl(30, 10%, 34%); 
+
+}
+
+table{
+    border-collapse: collapse;
+    font-family:'Outfit' ;
+    font-size: 0.8rem;
+    width:100%;
+}
+
+
+
+.type{
+   /* background-color: aqua; */
+   border:none;
+   color:hsl(30, 10%, 34%); 
+   height:1px;
+   border-bottom:1px solid hsl(30, 18%, 87%);;
+   padding-left:5%;
+   padding-top: 1.5%;
+   padding-bottom:1.5%
+}
+
+.typelast{
+    /* background-color: aqua; */
+    padding-top: 1.5%;
+    padding-bottom:1.5%;
+    border:none;
+    padding-left:5%;
+    color:hsl(30, 10%, 34%); 
+  
+ }
+
+.gram{
+    /* background-color: aqua; */
+    border:none;
+    height:1px;
+    border-bottom:1px solid hsl(30, 18%, 87%);;
+    color:hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.gramlast{
+    border:none;
+    height:1px;
+    color:hsl(14, 45%, 36%);
+    font-weight: bold;
+}

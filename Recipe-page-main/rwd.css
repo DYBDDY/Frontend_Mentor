@@ -1,0 +1,45 @@
+@media (max-width: 500px){
+    body{
+        margin:0;
+        padding: 0;
+        width:100%;
+        background-color: hsl(0, 0%, 100%) ;
+    }
+
+    .wrapper{
+        background-color:hsl(0, 0%, 100%) ;
+        /* margin: auto; */
+        margin-top: 0;
+        margin-bottom:0%;
+        margin-left:0;
+        margin-right:0;
+        width:100%;
+    }
+
+    .titleimg{
+        width:100%;
+        padding-top: 0;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .titleimg img{
+        max-width:100%;
+        border-radius: 0px;;
+    }
+    
+    .title{
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+        /* font-family: ; */
+    }
+    
+    
+}
+/* 
+@media (max-width: 600px) {
+    .wrapper {
+      max-width: 90%;
+    }
+  }
+   */
