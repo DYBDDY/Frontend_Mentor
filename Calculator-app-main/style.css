@@ -1,0 +1,289 @@
+@font-face {
+    font-family: "League Spartan";
+    src: url('/League_Spartan/static/LeagueSpartan-Regular.ttf');
+}
+
+@font-face {
+    font-family: "League Spartan Bold";
+    src: url('/League_Spartan/static/LeagueSpartan-Bold.ttf');
+}
+
+
+body{
+    margin: 0;
+    padding:0;
+    background-color: hsl(0, 0%, 93%);
+    font-family: "League Spartan";
+}
+
+.wrapper{
+    max-width:40%;
+    max-height: 80%;
+    margin:auto;
+    margin-bottom: 8%;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;      
+}
+
+.top{
+    display: flex;
+    align-items: center;
+}
+.top .theme{
+    margin-left: auto;
+    margin-right:5% ;
+    display: flex;
+    align-items: center;
+}
+
+.top .theme .switch .switchcontainer{
+    display:flex;
+    flex-direction: column;
+}
+
+.top .theme .switch .switchcontainer .switchnumber{
+    font-family: "League Spartan";
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    font-size: 0.3em;
+    height:100%;
+    margin-left: 25%;
+    gap:44%;
+}
+
+.top .theme .switch .switchcontainer .btnbg{
+    width: 150%;
+    height:25px;
+    background-color: hsl(0, 5%, 81%);
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+}
+
+
+input[type="radio"] {
+    display: none;
+}
+
+.radio-label1{
+    font-family: "League Spartan";
+    align-items: center;
+    padding: 5px 5px;
+    font-size: 16px;
+    color: hsl(60, 10%, 19%);
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    margin-left:20%;
+    margin-right:30%;
+    cursor: pointer;
+}
+
+.radio-label2{
+    font-family: "League Spartan";
+    align-items: center;
+    padding: 5px 5px;
+    font-size: 16px;
+    color: hsl(60, 10%, 19%);
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    margin-left:20%;
+    margin-right:30%;
+    cursor: pointer;
+}
+
+.radio-label3{
+    font-family: "League Spartan";
+    align-items: center;
+    padding: 5px 5px;
+    font-size: 16px;
+    color: hsl(60, 10%, 19%);
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    margin-left:20%;
+    margin-right:30%;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked + .radio-label1 {
+    background-color: hsl(6, 63%, 50%);
+    border-color: hsl(6, 63%, 50%);
+}
+
+input[type="radio"]:checked + .radio-label2 {
+    background-color: hsl(25, 98%, 40%);
+    border-color: hsl(25, 98%, 40%)
+}
+
+input[type="radio"]:checked + .radio-label3 {
+    background-color: hsl(176, 100%, 44%);
+    border-color: hsl(176, 100%, 44%);
+}
+
+.themetitle{
+    font-family: "League Spartan";
+    font-size:0.3em;
+    margin-top:16%;
+    margin-right: 10%;
+}
+.switchnum{
+    font-family: "League Spartan";
+    font-size:0.5em;
+    text-align: center;
+}
+
+ .top .theme .switch .switchbutton{
+    background-color:hsl(0, 5%, 81%);
+ }
+
+.inputwindow{
+    margin-bottom:2%;
+}
+
+.inputwindow input{
+    width:100%;
+    line-height: 7rem;
+    border: none;
+    border-radius: 10px;
+    font-family: "League Spartan Bold";
+    font-size:300%;
+    text-align: end;
+}
+
+.cacbutton{
+    height:70%;
+    background-color: hsl(0, 5%, 81%);
+    border-radius: 10px;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:3% ;
+    padding:2em;
+}
+
+
+
+.cacbutton .number {
+    color:hsl(60, 10%, 19%);
+    background-color: hsl(45, 7%, 89%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px hsl(35, 11%, 61%);
+    padding: 15px 10px 10px 10px;
+    width:90%;
+    height:90%;
+    cursor: pointer;
+}
+
+.cacbutton .number:hover {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.cacbutton .number span{
+    font-family: "League Spartan Bold";
+    font-size: 2.5rem;
+}
+
+
+
+.cacbutton .fun{
+    color:hsl(60, 10%, 19%);
+    background-color: hsl(45, 7%, 89%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px hsl(35, 11%, 61%);
+    padding: 15px 10px 10px 10px;
+    width:90%;
+    height:90%;
+    cursor: pointer;
+}
+
+.cacbutton .fun:hover {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.cacbutton .fun span{
+    font-family: "League Spartan Bold";
+    font-size: 2.5rem;
+}
+
+.cacbutton .delete{
+    color:hsl(0, 0%, 100%);
+    background-color: hsl(185, 42%, 37%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px hsl(185, 58%, 25%);
+    padding: 15px 10px 10px 10px;
+    width:90%;
+    height:90%;
+    cursor: pointer;
+}
+
+.cacbutton .delete:hover {
+    color:hsl(60, 10%, 19%);
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 4px 0px 0px hsl(35, 11%, 61%);
+}
+.cacbutton .delete span{
+    font-family: "League Spartan Bold";
+    font-size: 2rem;
+}
+
+.cacbutton .reset{
+    color:hsl(0, 0%, 100%);
+    background-color: hsl(185, 42%, 37%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px hsl(185, 58%, 25%);
+    padding: 15px 10px 10px 10px;
+    width:200%;
+    height:90%;
+    cursor: pointer;
+}
+
+.cacbutton .reset:hover {
+    color:hsl(60, 10%, 19%);
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 4px 0px 0px hsl(35, 11%, 61%);
+}
+
+.cacbutton .reset span{
+    font-family: "League Spartan Bold";
+    font-size: 2rem;
+}
+
+.cacbutton .equal{
+    color:hsl(0, 0%, 100%);
+    background-color: hsl(25, 98%, 40%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px hsl(25, 99%, 27%);
+    padding: 15px 10px 10px 10px;
+    width:200%;
+    height:90%;
+    margin-left: 115%;
+    cursor: pointer;
+}
+
+.cacbutton .equal:hover {
+    color:hsl(60, 10%, 19%);
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 4px 0px 0px hsl(35, 11%, 61%);
+}
+
+.cacbutton .equal span{
+    font-family: "League Spartan Bold";
+    font-size: 2rem;
+}
+
+.lasttwobtn{
+    display: flex;
+}
+
+

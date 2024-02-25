@@ -1,0 +1,50 @@
+@media(max-width: 450px) {
+   
+    .wrapper{
+        max-width:90%;
+        max-height: 95%;     
+    }
+    
+    .top h1{
+        font-size: 2.5em;
+    }
+  
+    .cacbutton{
+        margin-top:10%;
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: 23% auto auto auto; 
+        grid-template-rows: 18% 18% 18% 18%;  
+        height:65%;
+        gap:3%;
+        background-color: hsl(0, 5%, 81%);
+        padding:1em;
+        padding-top: 2em;
+    }
+
+    .cacbutton .number {
+        width:6em;
+        height:6em
+    }
+
+    .cacbutton .fun{
+        width:6em;
+        height:6em
+    }
+    
+    .cacbutton .delete{
+
+        width:6em;
+        height:6em
+    }
+    .cacbutton .reset{
+        width:200%;
+        height:90%
+    }
+
+    .cacbutton .equal{
+        width:200%;
+        height:90%;
+        margin-left: 120%;
+    }
+}
