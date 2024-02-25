@@ -9,4 +9,6 @@
 ### [Newsletter-sign-up-with-success-message](https://newslettersignupwithsuccessmessage.netlify.app/)
 ### [Age-starter-app](https://age-app-starter.netlify.app/)
 ### [News-homepage-main](https://news-homepage-main-ex.netlify.app/)
+## Intermediate
+### [Caculator-app-with-theme-switch](https://calc-app-main.netlify.app/)
 
