@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">  
+  <title>Frontend Mentor | Todo app</title>
+</head>
+<body>
+<div class="wrapper">
+  <div class="top">
+    <h1>T O D O</h1>
+    <button class="theme"><img src="/images/icon-sun.svg"></button>
+  </div>
+  <div class="main">
+    <div class="createtodo">
+      <button id="createcheck"class="createcheck"></button>
+      <input type="text" id="newinputtext" class="inputcreate" placeholder="Create a new todo....">
+    </div>
+    <div class="listarea" id="listarea">
+    </div>
+    <div class="functionarea">
+      <p class="itemnum" id="itemnum">0 items left</p>
+      <button class="all" id="all">All</button>
+      <button class="active" id="active">Active</button> 
+      <button class="complete" id="complete">Completed</button>
+      <button class="clear" id="clear">Clear Completed</button> 
+    </div>
+  </div>
+  <p class="notification">Drag and drop to reorder list<p>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
